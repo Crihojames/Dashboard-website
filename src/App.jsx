@@ -1,10 +1,12 @@
 
+import TopNav from "./assets/components/topnav/TopNav"
+
 
 function App() {
 
   return (
       <div className="App">
-        <h1>Dashboard APP</h1>
+        <TopNav/>
       </div>
   )
 }
