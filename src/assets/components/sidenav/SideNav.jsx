@@ -13,11 +13,12 @@ import {
   Analytics,
   Report,
 } from "@mui/icons-material"
+import "./sidenav.css"
 
 export default function SideNav() {
   return (
     <div className="sideNaveContainer">
-      <div className="sideNaveWrapeer">
+      <div className="sideNaveWrapper">
         <div className="sidenavMenu">
           <h3 className="sideNavTitle">Dashboard</h3>
           <ul className="sideNavList">
