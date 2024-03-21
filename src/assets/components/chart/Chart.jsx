@@ -7,6 +7,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts"
+import "./chart.css"
 
 export default function Chart() {
   const data = [
@@ -54,6 +55,7 @@ export default function Chart() {
     },
   ]
   return (
+    <div className="chartContainer">
     <AreaChart
       width={830}
       height={350}
@@ -142,5 +144,6 @@ export default function Chart() {
         fill="url(#colorRv)"
       />
     </AreaChart>
+    </div>
   )
 }
