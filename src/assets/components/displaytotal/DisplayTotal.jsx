@@ -4,6 +4,7 @@ import {
 } from "react-circular-progressbar"
 import "react-circular-progressbar/dist/styles.css"
 import { KeyboardArrowDown, KeyboardArrowUp, } from "@mui/icons-material"
+import './displayTotal.css'
 
 export default function DisplayTotal() {
   return (
@@ -25,7 +26,7 @@ export default function DisplayTotal() {
           <p className="amount">&789</p>
           <p className="description">
             Processing of previous transaction, last payment might not be
-            accounted for{" "}
+            accounted for
           </p>
           <div className="summary">
             <div className="item">
