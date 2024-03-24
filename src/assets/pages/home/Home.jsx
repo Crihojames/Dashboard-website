@@ -1,6 +1,7 @@
 import Chart from '../../components/chart/Chart'
 import DisplayTotal from '../../components/displaytotal/DisplayTotal'
 import Featured from '../../components/featured/Featured'
+import OrderWidget from '../../components/orderwidget/OrderWidget'
 import './home.css'
 
 export default function Home() {
@@ -10,6 +11,9 @@ export default function Home() {
         <div className='chartAnalyticWidget'>
           <Chart/>
           <DisplayTotal/>
+        </div>
+        <div className='orderAndMenberWidget'>
+          <OrderWidget/>
         </div>
     </div>
   )

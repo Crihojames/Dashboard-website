@@ -6,3 +6,8 @@
 .chartAnalyticWidget{
     display: flex;
 } 
+
+.orderAndMenberWidget{
+   display: block;
+   margin: 30px; 
+}

@@ -21,7 +21,6 @@ export default function DisplayTotal() {
             styles={buildStyles({ strokeLinecap: "butt" })}
           />
         </div>
-        <div>
           <p className="title">Total sales per day</p>
           <p className="amount">&789</p>
           <p className="description">
@@ -51,7 +50,6 @@ export default function DisplayTotal() {
                 </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
   )
