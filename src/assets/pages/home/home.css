@@ -8,6 +8,6 @@
 } 
 
 .orderAndMenberWidget{
-   display: block;
+   display: flex;
    margin: 30px; 
 }
