@@ -1,5 +1,6 @@
 import "./userlist.css"
 import { DataGrid } from "@mui/x-data-grid"
+import { usersData } from "../../data/userData"
 
 export default function UserList() {
   const columns = [
@@ -23,69 +24,12 @@ export default function UserList() {
     },
   ]
 
-  const rows = [
-    {
-      id: 1,
-      username: "Criho james",
-      avatar: "ew",
-      email: "crihojames@gmail.com",
-      status: "active",
-      payment: "$345.78",
-    },
-    {
-      id: 2,
-      username: "Manasse",
-      avatar: "ew",
-      email: "manasse@gmail.com",
-      status: "active",
-      payment: "$345.78",
-    },
-    {
-      id: 3,
-      username: "Criho james",
-      avatar: "ew",
-      email: "crihojames@gmail.com",
-      status: "active",
-      payment: "$345.78",
-    },
-    {
-      id: 4,
-      username: "Criho james",
-      avatar: "ew",
-      email: "crihojames@gmail.com",
-      status: "active",
-      payment: "$345.78",
-    },
-    {
-      id: 5,
-      username: "Criho james",
-      avatar: "ew",
-      email: "crihojames@gmail.com",
-      status: "active",
-      payment: "$345.78",
-    },
-    {
-      id: 6,
-      username: "Criho james",
-      avatar: "ew",
-      email: "crihojames@gmail.com",
-      status: "active",
-      payment: "$345.78",
-    },
-    {
-      id: 7,
-      username: "Criho james",
-      avatar: "ew",
-      email: "crihojames@gmail.com",
-      status: "active",
-      payment: "$345.78",
-    },
-  ]
+
 
   return (
     <div className="userlist">
       <DataGrid
-        rows={rows}
+        rows={usersData}
         columns={columns}
         initialState={{
           pagination: {
