@@ -19,7 +19,6 @@ function App() {
             <Route path="/" element={<Home/>}></Route>
             <Route path="/userlist" element={<UserList/>}></Route>
           </Routes>
-          <Home/>
         </div>
       </BrowserRouter>
   )

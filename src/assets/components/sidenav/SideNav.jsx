@@ -14,6 +14,7 @@ import {
   Report,
 } from "@mui/icons-material"
 import "./sidenav.css"
+import { Link } from "react-router-dom"
 
 export default function SideNav() {
   return (
@@ -22,10 +23,12 @@ export default function SideNav() {
         <div className="sidenavMenu">
           <h3 className="sideNavTitle">Dashboard</h3>
           <ul className="sideNavList">
+            <Link to='/'>
             <li className="sidenavListItem">
               <LineStyle className="sidenavIcon" />
               Home
             </li>
+            </Link>
             <li className="sidenavListItem">
               <Timeline className="sidenavIcon" />
               Analytics
@@ -40,10 +43,12 @@ export default function SideNav() {
         <div className="sidenavMenu">
           <h3 className="sideNavTitle">Admin menu</h3>
           <ul className="sideNavList">
-            <li className="sidenavListItem">
-              <Person className="sidenavIcon" />
-              Users
-            </li>
+            <Link to='/userlist'>
+              <li className="sidenavListItem">
+                <Person className="sidenavIcon" />
+                Users
+              </li>
+            </Link>
             <li className="sidenavListItem">
               <Paid className="sidenavIcon" />
               Products
