@@ -2,7 +2,7 @@ export const usersData =[
     {
         id: 1,
         username: "Criho james",
-        avatar: "ew",
+        avatar: "https://avatars.githubusercontent.com/u/101941972?v=4",
         email: "crihojames@gmail.com",
         status: "active",
         payment: "$345.78",
@@ -10,7 +10,7 @@ export const usersData =[
       {
         id: 2,
         username: "Manasse",
-        avatar: "ew",
+        avatar: "https://avatars.githubusercontent.com/u/101941972?v=4",
         email: "manasse@gmail.com",
         status: "active",
         payment: "$345.78",
@@ -18,7 +18,7 @@ export const usersData =[
       {
         id: 3,
         username: "Criho james",
-        avatar: "ew",
+        avatar: "https://avatars.githubusercontent.com/u/101941972?v=4",
         email: "crihojames@gmail.com",
         status: "active",
         payment: "$345.78",
@@ -26,7 +26,7 @@ export const usersData =[
       {
         id: 4,
         username: "Criho james",
-        avatar: "ew",
+        avatar: "https://avatars.githubusercontent.com/u/101941972?v=4",
         email: "crihojames@gmail.com",
         status: "active",
         payment: "$345.78",
@@ -34,7 +34,7 @@ export const usersData =[
       {
         id: 5,
         username: "Criho james",
-        avatar: "ew",
+        avatar: "https://avatars.githubusercontent.com/u/101941972?v=4",
         email: "crihojames@gmail.com",
         status: "active",
         payment: "$345.78",
@@ -42,7 +42,7 @@ export const usersData =[
       {
         id: 6,
         username: "Criho james",
-        avatar: "ew",
+        avatar: "https://avatars.githubusercontent.com/u/101941972?v=4",
         email: "crihojames@gmail.com",
         status: "active",
         payment: "$345.78",
@@ -50,7 +50,7 @@ export const usersData =[
       {
         id: 7,
         username: "Criho james",
-        avatar: "ew",
+        avatar: "https://avatars.githubusercontent.com/u/101941972?v=4",
         email: "crihojames@gmail.com",
         status: "active",
         payment: "$345.78",
